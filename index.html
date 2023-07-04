@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Management CRUD</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <!-- <div id="studentList"></div> -->
+  <h3>Student Management CRUD</h3>
+  <form id="studentForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="number" id="age" placeholder="Age" required>
+    <input type="text" id="grade" placeholder="Grade" required>
+    <input type="text" id="degree" placeholder="Degree" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit" id="submitButton">Add Student</button>
+  </form>
+
+  <!-- input search element -->
+  <input type="text" id="search" placeholder="Search By Name,email or degree">
+
+
+  <div id="studentList">
+
+  </div>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>

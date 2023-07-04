@@ -1,0 +1,57 @@
+body{
+    margin: 10px 40px;
+    background-color: black;
+}
+h3{
+    color: white;
+    font-weight: 400;
+}
+
+input{
+    width: 457px;
+    height: 39px;
+    border: 1px solid gray;
+    margin: 5px;
+    margin-bottom: 21px;
+    background-color: black;
+    color: white;
+}
+#submitButton{
+    width: 600px;
+    height: 40px;
+    margin-top: 18px;
+    border: 1px solid gray;
+}
+
+/* search input */
+#search{
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+/* table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid gray;
+    background-color: black;
+  }
+
+  thead{
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align:left;
+    border-right: 1px solid #ddd;
+    color: white;
+    font-weight: lighter;
+  }
+  
+  .material-icons{
+    cursor: pointer;
+  }
+  
